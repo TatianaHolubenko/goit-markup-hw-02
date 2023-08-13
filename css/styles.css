@@ -1,0 +1,29 @@
+body {
+  font-family: 'Raleway', 'Roboto';
+  color: var(--navyblue, #2e2f42);
+  background-color: #fff;
+}
+ul {
+  list-style-type: none;
+}
+.accent {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
