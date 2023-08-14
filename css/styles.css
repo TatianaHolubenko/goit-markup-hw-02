@@ -7,7 +7,7 @@ body {
 ul {
   list-style: none;
 }
-.accent {
+.logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -18,7 +18,7 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo {
+.accent {
   color: #2e2f42;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -163,8 +163,16 @@ ul {
 .footer {
   background-color: #2e2f42;
 }
-.logo-studio {
+.accent-footer {
   color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
