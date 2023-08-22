@@ -4,39 +4,39 @@ body {
   background-color: #fff;
   font-size: 16px;
 }
-ul {
+.list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
 }
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 .accent {
   color: #2e2f42;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .navigation-link {
   color: #2e2f42;
-  font-family: Roboto;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .navigation:hover,
 .navigation:focus {
@@ -44,14 +44,11 @@ ul {
 }
 .address {
   color: #434455;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .address-contact {
   color: #434455;
-  font-family: Roboto;
-  text-decoration: none;
   font-style: normal;
   letter-spacing: 0.02em;
 }
@@ -64,54 +61,44 @@ ul {
 }
 .main-title {
   color: #fff;
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
 .hero-button {
   color: #fff;
   background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
 }
 .business-solutions-title {
-  color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .business-solutions-text {
-  color: var(--slate, #434455);
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 150%;
+  color: #434455;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .team {
   background-color: #f4f4fd;
 }
 .team-title {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -119,65 +106,54 @@ ul {
   background-color: #ffffff;
 }
 .team-list-name {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .team-list-text {
-  color: var(--slate, #434455);
+  color: #434455;
   text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .portfolio-title {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .portfolio-list-name {
-  color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .portfolio-list-text {
-  color: var(--slate, #434455);
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 150%;
+  color: #434455;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.footer {
+.page-footer {
   background-color: #2e2f42;
 }
 .accent-footer {
   color: #f4f4fd;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
-.footer-text {
-  color: var(--cloud, #f4f4fd);
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 150%;
+.page-footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
