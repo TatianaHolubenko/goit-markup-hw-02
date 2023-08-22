@@ -30,7 +30,7 @@ ul {
   text-decoration: none;
 }
 
-.navigation {
+.navigation-link {
   color: #2e2f42;
   font-family: Roboto;
   font-weight: 500;
@@ -62,7 +62,7 @@ ul {
 .hero {
   background-color: #2e2f42;
 }
-.hero-title {
+.main-title {
   color: #fff;
   font-family: Roboto;
   font-size: 56px;
@@ -115,10 +115,10 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.team-list {
+.team-list-item {
   background-color: #ffffff;
 }
-.team-name {
+.team-list-name {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-family: Roboto;
@@ -127,7 +127,7 @@ ul {
   line-height: 120%;
   letter-spacing: 0.02em;
 }
-.team-text {
+.team-list-text {
   color: var(--slate, #434455);
   text-align: center;
   font-family: Roboto;
@@ -145,7 +145,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.portfolio-name {
+.portfolio-list-name {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 20px;
@@ -153,7 +153,7 @@ ul {
   line-height: 120%;
   letter-spacing: 0.02em;
 }
-.portfolio-text {
+.portfolio-list-text {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
